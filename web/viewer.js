@@ -203,7 +203,7 @@ function webViewerLoad() {
 
     window.PDFViewerApplication = pdfjsWebApp.PDFViewerApplication;
     window.PDFViewerApplicationOptions = pdfjsWebAppOptions.AppOptions;
-    pdfjsWebApp.PDFViewerApplication.run(config);
+    window.PDFViewerApplicationConfig = config;
   }
 }
 
